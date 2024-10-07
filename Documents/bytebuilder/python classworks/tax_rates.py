@@ -9,8 +9,8 @@ if number == 0:
 		print(taxs)
 	elif taxable > 8351 and taxable < 33950:
 		tax = 8350 * 0.10
-		taxs -= 8350
-		tab = tax * 0.15
+		taxable -= 8350
+		tab = taxable * 0.15
 		table = tax + tab
 		print(table)
 	
